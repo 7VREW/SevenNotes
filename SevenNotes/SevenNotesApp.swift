@@ -11,7 +11,7 @@ import SwiftUI
 struct SevenNotesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            textFieldNote()
         }
     }
 }

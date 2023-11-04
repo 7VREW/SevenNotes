@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC607BCD2AF69CE200CABD89 /* SevenNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC607BCC2AF69CE200CABD89 /* SevenNotesApp.swift */; };
-		BC607BCF2AF69CE200CABD89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC607BCE2AF69CE200CABD89 /* ContentView.swift */; };
+		BC607BCF2AF69CE200CABD89 /* textFieldNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC607BCE2AF69CE200CABD89 /* textFieldNote.swift */; };
 		BC607BD12AF69CE300CABD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC607BD02AF69CE300CABD89 /* Assets.xcassets */; };
 		BC607BD42AF69CE300CABD89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC607BD32AF69CE300CABD89 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		BC607BC92AF69CE200CABD89 /* SevenNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC607BCC2AF69CE200CABD89 /* SevenNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenNotesApp.swift; sourceTree = "<group>"; };
-		BC607BCE2AF69CE200CABD89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC607BCE2AF69CE200CABD89 /* textFieldNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldNote.swift; sourceTree = "<group>"; };
 		BC607BD02AF69CE300CABD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC607BD32AF69CE300CABD89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				BC607BCC2AF69CE200CABD89 /* SevenNotesApp.swift */,
-				BC607BCE2AF69CE200CABD89 /* ContentView.swift */,
+				BC607BCE2AF69CE200CABD89 /* textFieldNote.swift */,
+				BC607BDA2AF69E7B00CABD89 /* Component */,
 				BC607BD02AF69CE300CABD89 /* Assets.xcassets */,
 				BC607BD22AF69CE300CABD89 /* Preview Content */,
 			);
@@ -65,6 +66,13 @@
 				BC607BD32AF69CE300CABD89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC607BDA2AF69E7B00CABD89 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC607BCF2AF69CE200CABD89 /* ContentView.swift in Sources */,
+				BC607BCF2AF69CE200CABD89 /* textFieldNote.swift in Sources */,
 				BC607BCD2AF69CE200CABD89 /* SevenNotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
