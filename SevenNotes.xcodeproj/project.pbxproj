@@ -11,6 +11,7 @@
 		BC607BCF2AF69CE200CABD89 /* textFieldNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC607BCE2AF69CE200CABD89 /* textFieldNote.swift */; };
 		BC607BD12AF69CE300CABD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC607BD02AF69CE300CABD89 /* Assets.xcassets */; };
 		BC607BD42AF69CE300CABD89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC607BD32AF69CE300CABD89 /* Preview Assets.xcassets */; };
+		BC607BDC2AF7A55600CABD89 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC607BDB2AF7A55600CABD89 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BC607BCE2AF69CE200CABD89 /* textFieldNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldNote.swift; sourceTree = "<group>"; };
 		BC607BD02AF69CE300CABD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC607BD32AF69CE300CABD89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC607BDB2AF7A55600CABD89 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		BC607BDA2AF69E7B00CABD89 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				BC607BDB2AF7A55600CABD89 /* TextView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC607BDC2AF7A55600CABD89 /* TextView.swift in Sources */,
 				BC607BCF2AF69CE200CABD89 /* textFieldNote.swift in Sources */,
 				BC607BCD2AF69CE200CABD89 /* SevenNotesApp.swift in Sources */,
 			);

@@ -7,18 +7,19 @@
 
 import SwiftUI
 
+
 struct textFieldNote: View {
-    @State var tNote: String = ""
+
+    @State var uNote = NSMutableAttributedString(string: "Do ipsum reprehenderit laborum irure adipisicing. Dolore est voluptate in. Lorem ullamco ullamco ea nostrud qui eu aute Lorem mollit ut consectetur. Deserunt est occaecat nulla aute ipsum cupidatat eiusmod minim commodo. Adipisicing sit in aliqua ea culpa. Non cillum quis do excepteur fugiat officia. Consequat nostrud veniam consectetur elit elit cillum nulla. Cillum dolor anim ullamco anim voluptate excepteur amet est Lorem ad.")
     
     var body: some View {
         VStack {
-            TextField ("Description", text: $tNote, axis: .vertical)
-                .frame(minWidth: 370, minHeight: 800)
-                .background(.red)
-                .clipShape(RoundedRectangle(cornerRadius: 45))
+            TextView(attributedText: $uNote)
+                .tint(.nGreenTint)
+                .padding()
         }
-        
-        .padding()
+        .background(.nPinkTint)
+        .ignoresSafeArea()
     }
 }
 
