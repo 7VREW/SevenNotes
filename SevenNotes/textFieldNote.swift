@@ -15,6 +15,7 @@ struct textFieldNote: View {
     var body: some View {
         VStack {
             TextView(attributedText: $uNote)
+                .font(.body)
                 .tint(.nGreenTint)
                 .padding()
         }
