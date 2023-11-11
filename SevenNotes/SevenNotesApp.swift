@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct SevenNotesApp: App {
+    @StateObject private var myNotes = MyNotes()
     var body: some Scene {
         WindowGroup {
-            textFieldNote()
+            MainView(myNotes: myNotes)
         }
     }
 }
