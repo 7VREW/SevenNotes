@@ -24,7 +24,7 @@ struct MainView: View {
                                 Text("On My Iphone")
                         .font(.title3)
                         .fontWeight(.bold)
-                        .foregroundStyle(.black)) {
+                        .foregroundStyle(.primary)) {
                             if myNotes.folders.count > 0 {
                                 FolderCell(name: "All on My Iphone")
                             }
