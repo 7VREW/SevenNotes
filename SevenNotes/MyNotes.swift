@@ -17,6 +17,6 @@ struct Folder: Identifiable {
 }
 
 var testFolders = [
-    Folder(name: "Folder1"),
+    Folder(name: "Textes"),
     Folder(name: "Folder2")
 ]
